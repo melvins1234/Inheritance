@@ -9,7 +9,7 @@ public class Ford extends Car{
     }
 
     public double getSalePrice(){
-        return super.getSalePrice() - (super.getSalePrice() * manufacturerDiscount);
+        return super.getSalePrice() - (super.getSalePrice() * (100/manufacturerDiscount));
     }
 
     public int getYear() {
