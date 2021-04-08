@@ -1,6 +1,11 @@
 public class Jeepney extends Car{
     private int weight;
 
+    public Jeepney(int speed, double regularPrice, String color, int weight){
+        super(speed, regularPrice, color);
+        this.weight = weight;
+    }
+
     public int getWeight() {
         return weight;
     }
