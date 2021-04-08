@@ -1,6 +1,11 @@
 public class Sedan extends Car{
     protected static int length;
 
+    public Sedan(int sspeed,double sregularPrice,String scolor,int slength){
+        super(sspeed,sregularPrice,scolor);
+        length = slength;
+    }
+
     public int getLength() {
         return length;
     }
